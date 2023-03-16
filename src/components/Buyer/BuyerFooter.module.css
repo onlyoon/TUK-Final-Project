@@ -1,3 +1,10 @@
 .b_footer {
-
+  border: 20px solid #FFFFFF; 
+  width: auto;
+  height: 210px;
+  background-color: #00A2AE;
+  color: white;
+  display: flex;
+  justify-content : center;
+  align-items: center;
 }
