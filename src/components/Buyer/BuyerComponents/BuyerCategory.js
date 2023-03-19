@@ -1,6 +1,8 @@
+import classes from "./BuyerCategory.module.css";
+
 const BuyerCategory = () => {
   return (
-    <div>
+    <div className={classes.b_category}>
       <h1>강의</h1>
       <h1>로드맵</h1>
       <h1>멘토링</h1>

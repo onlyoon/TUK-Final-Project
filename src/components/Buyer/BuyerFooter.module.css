@@ -1,10 +1,15 @@
 .b_footer {
-  border: 20px solid #FFFFFF; 
-  width: auto;
-  height: 210px;
-  background-color: #00A2AE;
+  border: 20px solid;
+  width: 1365px;
+  height: 151px;
+  background-color: #00a2ae;
+  margin: 0 auto;
   color: white;
   display: flex;
-  justify-content : center;
+  justify-content: center;
   align-items: center;
+  bottom: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }

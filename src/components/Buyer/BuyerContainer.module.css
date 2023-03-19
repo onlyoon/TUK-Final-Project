@@ -1,5 +1,5 @@
-.b_contents {
-  border: 20px solid #FFFFFF; 
+.b_container {
+  border: 20px solid #ffffff;
   border-top: 10px;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
 
 .d_img {
   margin: auto;
-  
+
   width: 800px;
   height: 800px;
   object-fit: cover;

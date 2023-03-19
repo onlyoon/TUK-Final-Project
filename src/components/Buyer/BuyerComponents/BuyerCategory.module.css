@@ -1,0 +1,11 @@
+.b_category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  gap: 200px;
+}

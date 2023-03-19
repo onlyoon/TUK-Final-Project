@@ -4,7 +4,7 @@ import BuyerContent from "./BuyerComponents/BuyerContent";
 
 const BuyerContainer = () => {
   return (
-    <div className={classes.b_contents}>
+    <div className={classes.b_container}>
       <BuyerCategory />
       <BuyerContent />
     </div>
