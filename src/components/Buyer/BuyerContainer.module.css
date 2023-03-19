@@ -4,19 +4,5 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  position: relative;
-}
-
-.f_img {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-}
-
-.d_img {
-  margin: auto;
-
-  width: 800px;
-  height: 800px;
-  object-fit: cover;
+  position: fixed;
 }

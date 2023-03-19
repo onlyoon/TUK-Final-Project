@@ -1,9 +1,8 @@
 .b_footer {
-  border: 20px solid;
+  border-bottom: 20px solid;
   width: 1365px;
   height: 151px;
   background-color: #00a2ae;
-  margin: 0 auto;
   color: white;
   display: flex;
   justify-content: center;
@@ -12,4 +11,5 @@
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 260px; /* add margin to create space above */
 }

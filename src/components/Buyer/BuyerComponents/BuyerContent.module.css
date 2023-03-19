@@ -1,10 +1,11 @@
 .b_buyer {
+  padding-top: 260px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   width: 100%;
   max-width: 1365px;
-  position: relative;
+  position: fixed;
 }
 
 .b_buyer > div {
