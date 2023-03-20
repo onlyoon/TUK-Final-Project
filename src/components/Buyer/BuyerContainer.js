@@ -1,12 +1,12 @@
 import classes from "./BuyerContainer.module.css";
-import BuyerCategory from "./BuyerComponents/BuyerCategory";
-import BuyerContent from "./BuyerComponents/BuyerContent";
+import BuyerCategory from "./BuyerComponents/BuyerCategory/BuyerCategory";
+import BuyerContents from "./BuyerComponents/BuyerContents";
 
 const BuyerContainer = () => {
   return (
     <div className={classes.b_container}>
       <BuyerCategory />
-      <BuyerContent />
+      <BuyerContents />
     </div>
   );
 };
