@@ -7,8 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0;
-  position: fixed;
+  top: 0px;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
 }

@@ -3,8 +3,9 @@ import classes from "./GroupItemSelect.module.css";
 const GroupItemSelect = () => {
   return (
     <div className={classes.group_select}>
-      <button>Yes or No</button>
-      <h2>전체 선택</h2>
+      <input type="checkbox" />
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <h3>전체 선택</h3>
     </div>
   );
 };

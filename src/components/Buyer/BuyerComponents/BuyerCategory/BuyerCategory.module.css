@@ -8,8 +8,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: fixed;
-  top: 0px;
-  gap: 200px;
+  position: relative;
+
+  top: -170px;
+  gap: 150px;
   border-bottom: 1px solid #ccc;
 }

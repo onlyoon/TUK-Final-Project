@@ -1,7 +1,7 @@
-.group_select {
+.list {
   display: flex;
-  flex-direction: row;
-  text-align: left;
+  flex-direction: column;
+  text-align: right;
   border-bottom: 1px solid #ccc;
   position: relative;
   top: -20px;

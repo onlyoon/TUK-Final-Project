@@ -1,6 +1,9 @@
 .container {
-  display: flex;
   flex-direction: column;
-
   width: 100px;
+}
+
+.list {
+  display: flex;
+  left: -2000px;
 }
