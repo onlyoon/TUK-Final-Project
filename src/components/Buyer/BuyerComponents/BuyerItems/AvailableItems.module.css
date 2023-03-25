@@ -1,0 +1,8 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  top: -20px;
+}
