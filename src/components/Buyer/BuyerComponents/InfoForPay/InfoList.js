@@ -9,8 +9,8 @@ const InfoList = () => {
   return (
     <div className={classes.infoList}>
       <BuyerInfo />
-      <RecieptInfo />
       <DiscountInfo />
+      <RecieptInfo />
       <TotalInfo />
     </div>
   );
