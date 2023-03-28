@@ -1,25 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Form from './components/Form';
-import SellerPage from './components/Seller/SellerPage';
-import BuyerTestPage from './components/Buyer/BuyerTestPage';
-import { createContext, useState } from 'react';
-import EmptyPage from './components/EmptyPage';
-
-export const ServiceContext = createContext(null);
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BuyerWrap2 from "./components/Buyer/BuyerWrap2";
+import BuyerWrap1 from "./components/Buyer/BuyerWrap1";
+import EmptyPage from "./components/EmptyPage";
 const App = () => {
-  const [service, setService] = useState('buyer');
-
   return (
     <BrowserRouter>
-      <ServiceContext.Provider value={{ service, setService }}>
-        <Routes>
-          <Route path="/" element={<Form />} />
-          <Route path="/seller" element={<SellerPage />} />
-          <Route path="/buyer" element={<BuyerTestPage />} />
-          <Route path="*" element={<EmptyPage />} />
-        </Routes>
-      </ServiceContext.Provider>
+      <Routes>
+        <Route path="/" element={<BuyerWrap2 />} />
+        <Route path="/buyer" element={<BuyerWrap1 />} />
+        <Route path="*" element={<EmptyPage />} />
+      </Routes>
     </BrowserRouter>
   );
 };

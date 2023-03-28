@@ -2,7 +2,13 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  border-bottom: 1px solid #ccc;
   position: relative;
+}
+
+.item1 {
   top: -20px;
+}
+
+.item2 {
+  top: -420px;
 }

@@ -1,4 +1,4 @@
-import Item from "./Item";
+import Item2 from "./Item2";
 import classes from "./AvailableItems.module.css";
 
 const DUMMY_COURSE = [
@@ -27,7 +27,7 @@ const DUMMY_COURSE = [
 
 const AvailableItems = () => {
   const courseList = DUMMY_COURSE.map((course) => (
-    <Item
+    <Item2
       id={course.id}
       key={course.id}
       img={course.img}
@@ -38,7 +38,7 @@ const AvailableItems = () => {
     />
   ));
   
-  return <div className={`${classes.list} ${classes.item1}`}>{courseList}</div>;
+  return <div className={`${classes.list} ${classes.item2}`}>{courseList}</div>;
 };
 
 export default AvailableItems;

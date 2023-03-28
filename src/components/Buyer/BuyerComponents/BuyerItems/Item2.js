@@ -1,13 +1,12 @@
 import classes from "./Item.module.css";
 import courseimage from "../../../../images/online_course_image_for_programming_language.png";
 
-const Item = (props) => {
+const Item2 = (props) => {
   const price = `${props.price}  원`;
 
   return (
     <li>
-      <div className={classes.component1}>
-        <input type="CheckBox" />
+      <div className={classes.component2}>
         <img
           src={courseimage}
           alt="courseimage 경로를 못찾았습니다."
@@ -19,10 +18,10 @@ const Item = (props) => {
           <div>{props.author}</div>
           <div>{props.limitation}</div>
         </div>
-        <div className={classes.price1}>{price}</div>
+        <div className={classes.price2}>{price}</div>
       </div>
     </li>
   );
 };
 
-export default Item;
+export default Item2;
