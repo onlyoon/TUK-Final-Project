@@ -9,9 +9,15 @@
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
 }
+.link {
+  top: 50px;
+  width: 300px;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
 
 .button {
-  top: 50px;
   display: flex;
   position: relative;
   width: 300px;
@@ -26,5 +32,5 @@
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
-  
-}
+  text-decoration: none;
+}ight: 75px;

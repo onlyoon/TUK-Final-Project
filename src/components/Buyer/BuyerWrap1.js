@@ -3,7 +3,7 @@ import BuyerContainer from "./BuyerContainer";
 import BuyerFooter from "./BuyerFooter";
 import classes from "./BuyerWrap.module.css";
 
-const BuyerWrap = () => {
+const BuyerWrap1 = () => {
   return (
     <div className={classes.b_wrap}>
       <BuyerHeader />
@@ -13,4 +13,4 @@ const BuyerWrap = () => {
   );
 };
 
-export default BuyerWrap;
+export default BuyerWrap1;
