@@ -1,0 +1,11 @@
+.deliveryinfo {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+.title {
+  font-weight: bold;
+  color: #00a2ae;
+  margin-bottom: 100px;
+
+}

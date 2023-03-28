@@ -1,8 +1,8 @@
 import BuyerItems from "./BuyerItems/BuyerItems";
-import classes from "./BuyerContents.module.css";
-import InfoList from './InfoForPay/InfoList';
+import classes from "./BuyerContents1.module.css";
+import InfoList from "./InfoForPay/InfoList";
 
-const BuyerContents = () => {
+const BuyerContents1 = () => {
   return (
     <div className={classes.b_buyer}>
       <BuyerItems />
@@ -11,4 +11,4 @@ const BuyerContents = () => {
   );
 };
 
-export default BuyerContents;
+export default BuyerContents1;
