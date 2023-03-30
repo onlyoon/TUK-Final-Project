@@ -1,0 +1,6 @@
+.easypayment {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    border-bottom: 1px solid #ccc;
+}
