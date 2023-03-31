@@ -4,10 +4,11 @@ import Blockchain from './Blockchain';
 import Card from './Card';
 import EasyPayment from './EasyPayment';
 
+
 const PaymentMethods = () => {
     return (
         <div className={classes.p_methods}>
-            <div className={classes.title}>결제수단</div>
+            <PaymentMethod />
             <Card />
             <EasyPayment />
             <Blockchain />

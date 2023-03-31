@@ -4,3 +4,9 @@
     padding: 40px;
     border-bottom: 1px solid #ccc;
 }
+
+input[type=checkbox] {
+
+zoom: 1.5;
+
+}

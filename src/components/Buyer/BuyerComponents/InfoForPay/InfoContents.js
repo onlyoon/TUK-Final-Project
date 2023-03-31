@@ -5,7 +5,7 @@ const InfoContents = () => {
   return (
     <div className={classes.info_contents}>
       <div>
-        <DeliveryInfo />
+      <DeliveryInfo />
       </div>
       <InfoList />
     </div>

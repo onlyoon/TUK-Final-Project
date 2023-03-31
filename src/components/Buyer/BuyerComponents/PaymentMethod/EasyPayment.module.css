@@ -3,4 +3,11 @@
     flex-direction: row;
     padding: 40px;
     border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+input[type=checkbox] {
+
+zoom: 1.5;
+
 }
