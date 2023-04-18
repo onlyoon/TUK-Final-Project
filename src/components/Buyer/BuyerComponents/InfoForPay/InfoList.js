@@ -5,13 +5,13 @@ import TotalInfo from "./TotalInfo";
 
 import classes from "./InfoList.module.css";
 
-const InfoList = () => {
+const InfoList = (props) => {
   return (
     <div className={classes.infoList}>
       <BuyerInfo />
       <DiscountInfo />
       <RecieptInfo />
-      <TotalInfo />
+      <TotalInfo onShowModal={props.onShowModal} />
     </div>
   );
 };
