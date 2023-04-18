@@ -43,7 +43,6 @@ const ModalOverlay = (props) => {
         <header className={classes.modal_header}>{svgFile}</header>
         <div className={classes.modal_main}>
           <QrGenerator
-            key="NANGNANG"
             number="0001"
             name="abc"
             price="30000"
@@ -51,7 +50,12 @@ const ModalOverlay = (props) => {
           />
         </div>
         <footer className={classes.modal_footer}>
-          <button className={classes.modal_footer_button} onClick={props.onClose}>확인</button>
+          <button
+            className={classes.modal_footer_button}
+            onClick={props.onClose}
+          >
+            확인
+          </button>
         </footer>
       </div>
     </div>
@@ -63,7 +67,10 @@ const portalElement = document.getElementById("overlays");
 const Modal = (props) => {
   return (
     <>
-      {ReactDOM.createPortal(<Backdrop onClose={props.onClose}/>, portalElement)}
+      {ReactDOM.createPortal(
+        <Backdrop onClose={props.onClose} />,
+        portalElement
+      )}
       {ReactDOM.createPortal(
         <ModalOverlay onClose={props.onClose} />,
         portalElement
