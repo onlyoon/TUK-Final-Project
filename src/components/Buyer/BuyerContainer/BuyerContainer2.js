@@ -5,8 +5,14 @@ import BuyerContents2 from "../BuyerComponents/BuyerContents2";
 const BuyerContainer2 = (props) => {
   return (
     <div className={classes.b_container}>
-      <BuyerCategory />
-      <BuyerContents2 onShowModal={props.onShowModal} />
+      {props.onShowCompletion ? <p>결제완료</p> : <BuyerCategory />}
+      {props.onShowCompletion ? (
+        <p>결제완료</p>
+      ) : (
+        <BuyerContents2 onShowModal={props.onShowModal} />
+      )}
+      {/* <BuyerCategory />
+      <BuyerContents2 onShowModal={props.onShowModal} /> */}
     </div>
   );
 };

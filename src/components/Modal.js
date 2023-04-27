@@ -49,10 +49,11 @@ const ModalOverlay = (props) => {
             platformname="nangnang"
           />
         </div>
+        {props.timertime}
         <footer className={classes.modal_footer}>
           <button
             className={classes.modal_footer_button}
-            onClick={props.onClose}
+            onClick={props.onClickToUse}
           >
             확인
           </button>
